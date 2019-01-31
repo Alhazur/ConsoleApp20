@@ -9,7 +9,7 @@ namespace ConsoleApp16
 {
     class Program
     {
-        static InfoGenerator infoGen = new InfoGenerator(DateTime.Now.Millisecond);
+        static InfoGenerator infoGen = new InfoGenerator(DateTime.Now.Millisecond);//only one
         
         static void Main(string[] args)
         {
